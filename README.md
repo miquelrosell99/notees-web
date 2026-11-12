@@ -1,3 +1,5 @@
+> **Archived 2026-11-12.** Re-merged into [`miquelrosell99/notees`](https://github.com/miquelrosell99/notees) (ADR-001) — core + server + web live there again. This repo is a read-only mirror of the final split state (tag `final-split-state`); all future development moved with the merge.
+
 # Notees Web
 
 **The web client for [Notees](https://github.com/miquelrosell99/notees-sync)** — a self-hosted, privacy-first, local-first personal information environment whose only authority is an immutable operation log. This repo is the React/Vite outliner editor + worker (`notees-web` image, :8378); the wire authority, core packages, and sync server live in the sibling **[`miquelrosell99/notees-sync`](https://github.com/miquelrosell99/notees-sync)** repo, whose user-facing docs (front door, getting started, features, workflows) are kept here under `docs/`.
